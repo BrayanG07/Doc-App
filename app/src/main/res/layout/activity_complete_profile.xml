@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".activities.CompleteProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="45dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/send"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doc-App código de verificación"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="Le enviamos un código de un solo uso a este correo electrónico."
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtChangeEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cambiar Correo Electrónico"
+                android:textColor="@color/color_blue"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tu correo electrónico: "
+                android:textColor="@color/color_gray"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Correo Electrónico."
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/txtCode1Complete"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtCode2Complete"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtCode3Complete"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtCode4Complete"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtCode5Complete"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/txtCode6Complete"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCodeVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VERIFICAR"
+            android:background="@drawable/backgroud_button"
+            android:backgroundTint="@color/color_green"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/btnSendCodeComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="No recibí el código"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_blue"/>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/btnBackEditPass"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow_left"
+        android:layout_margin="15dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
